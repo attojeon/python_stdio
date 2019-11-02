@@ -5,11 +5,11 @@
 from sys import stdin
 
 # 한 줄 읽어들임.
-# 문자열을 strip 하고, split 한다.
-# 주의사항 : 맨마지막에 보이지 않는 \n(New line) 문자가 포함되어 있음.
+# split을 할 경우 strip을 하지 않아도 마지막 라인의 '\n'이 자연히 없어진다.
+# 주의사항 : \n이 없어지는 원리를 정확히 이해해야 합니다.
 # 문자=>정수로 변환하는 것을 잊지 말 것!!!
 
-mystr =  stdin.readline().strip().split()
+mystr =  stdin.readline().split()
 
 for n in mystr:
     print(int(n))
