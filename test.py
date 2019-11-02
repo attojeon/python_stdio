@@ -1,5 +1,10 @@
-from sys import stdin
+year = int(input())
+print(2019-year)
 
+
+
+
+'''
 # 한 단어를 readline할 때
 mystr = stdin.readline()
 print(mystr)
@@ -12,5 +17,5 @@ print(mystr)
 print("같은 단어들를 입력하세요.(스페이스 포함)")
 mystr = stdin.readline().split()
 print(mystr)
-
+'''
 
